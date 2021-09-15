@@ -1,4 +1,4 @@
-# cats
+# cats flutter demo
 
 This is a flutter demo app that shows a different random cat picture from cataas API every time user clicks on button. And stacked them in the screen.
 
