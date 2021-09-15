@@ -24,7 +24,7 @@ Data models are intermmediate classes that maps data-access-related entities to 
 Considering the projetc size, I don't use dependency injection pattern but a service locator approach, through the get_it dart package.
 
 
-## Other things to consider...
+## Other things to be considered...
 
 - Custom CircularProgressIconButton with two states: Icon (with onPressed behaviour) and Circular progress indicator
 - It generates valid expressions with different types of brackets: ()[]{} and shows them as titles below cat pictures and as token-bearer-fictional authentication.
