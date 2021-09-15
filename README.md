@@ -6,7 +6,7 @@ This project uses **Provider** package to manage state in Flutter and try to org
 
 ## Architecture explained
 
-You can find different layers like: Data, Presentation and Domain. Both Data and Presentation depend on Domain.
+You can find different layers like: **Data**, **Presentation** and **Domain**. Both Data and Presentation depend on Domain.
 
 Domain encapsulates business logic through entities and use cases. Domain also has repository **interfaces** while Data layer has their **implementations**. This way Data layer depends on Domain.
 
@@ -21,7 +21,7 @@ Data models are intermmediate classes that maps data-access-related entities to 
 
 ## Dependencies management
 
-Considering the projetc size, I don't use dependency injection pattern but a service locator approach, through the get_it dart package.
+Considering the projetc size, I don't use dependency injection pattern but a **service locator** approach, through the get_it dart package.
 
 
 ## Other things to be considered...
