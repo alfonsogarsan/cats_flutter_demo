@@ -1,6 +1,6 @@
 # cats
 
-This is a flutter demo app that shows a random cat picture from cataas API when user clicks on button. 
+This is a flutter demo app that shows a different random cat picture from cataas API every time user clicks on button. And stacked them in the screen.
 
 This project uses **Provider** package to manage state in Flutter and try to organize the code following a **Clean Architecture**.
 
