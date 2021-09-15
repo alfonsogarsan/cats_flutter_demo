@@ -16,7 +16,7 @@ Data layer implements, as I said before, repository interfaces (in domain). So w
 
 Data repository implementations have different ways to access data (backend data included). So communications, through services, are managed here, in Data layer.
 
-Data models are intermmediate classes that maps communication-related entities to domain entities and vice versa.
+Data models are intermmediate classes that maps data-access-related entities to domain entities and vice versa.
 
 
 ## Dependencies management
